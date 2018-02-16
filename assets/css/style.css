@@ -1,0 +1,64 @@
+body { background-color: #9c89aa;
+    background-image: url(../images/beach.jpg);
+
+}
+
+.logo{
+background-color: beige;
+color: #345054;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32pt;
+/* margin: 0 250px; */
+text-align: center;
+padding: 50px 0px;
+border:5px inset gray;
+/* border-radius: 10px; */
+}
+
+button {
+    width: 35px;
+    height:35px;
+}
+
+.gameboard {
+width: 500px;
+height: 100px;
+text-align: center;
+background-color: beige;
+border:5px inset gray;
+margin-top:10px;
+
+}
+.stack{
+    display: inline;
+}
+/* box for letters that were guessed */
+.guessbox {
+    background-color: beige;
+    border:5px inset gray;
+}
+
+/* letters that haven't been guessed */
+.remaining {
+    background-color: beige;
+    border:5px inset gray;
+}
+
+/* win counter box */
+.winbox {
+    background-color: beige;
+    border:5px inset gray;
+}
+
+.dressing {
+height: 50px; 
+width: 50px;
+font-size: 32pt;
+font-style: bold;
+color: black;
+margin-right:10px;
+padding: 5px;
+background-color: gray;
+visibility: hidden;
+}
+

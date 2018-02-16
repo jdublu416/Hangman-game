@@ -1,63 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8"></meta>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+        name="viewport"
+        content="width=, initial-scale=1.0"
+    ></meta>
+
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    ></meta>
 
     <title>Hangman</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+        rel="stylesheet"
+        href="assets/css/reset.css"
+    ></link>
 
+    <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous"
+    ></link>
+
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    ></link>
 </head>
 
 <body>
+    <header class="container">
+        <h1
+            class="row logo"
+            id="intro"
+        >Hangman: Beach Trip!</h1>
 
-    <header>
-
-        <h1 class="" id="intro">
-            Hangman: Nostalgia Trip!
-        </h1>
-
+        <div
+            class="row logo"
+            id="start"
+        >
+            <h2>Press any key to get started!</h2>
+        </div>
     </header>
 
-    <div class="" id="start">
-
-        <h2>Press any key to get started!</h2>
-
+    <div
+        class="container gameboard"
+        id="display"
+    >
+        <p
+            class="row"
+            id="marquis"
+        ></p>
     </div>
 
-    <div class="" id="display">
+    <div class="container letter">
+        <div class="row stack">
+            <div class="col-md-4 guessbox">
+                <h2 id="guessed">Letters already guessed:</h2>
 
-        <p id="marquis">
+                <button
+                    class=""
+                    id="btnA"
+                >A</button>
 
+                <button id="btnB">B</button>
 
-        </p>
+                <button id="btnC">C</button>
 
-    </div>
+                <button id="btnD">D</button>
 
-    <div class="letter">
+                <button id="btnE">E</button>
 
-        <div>
-            <h2 id="guessed">Letters already guessed:</div>
-        <div>
-            <h2 id="guessesleft">Number of guesses remaining:</div>
+                <button id="btnF">F</button>
 
-        <div>
-            <h2 class="" id="wins">Win Record</h2>
+                <button id="btnG">G</button>
+
+                <button id="btnH">H</button>
+
+                <button id="btnI">I</button>
+
+                <button id="btnJ">J</button>
+
+                <button id="btnK">K</button>
+
+                <button id="btnL">L</button>
+
+                <button id="btnM">M</button>
+
+                <button id="btnN">N</button>
+
+                <button id="btnO">O</button>
+
+                <button id="btnP">P</button>
+
+                <button id="btnQ">Q</button>
+
+                <button id="btnR">R</button>
+
+                <button id="btnS">S</button>
+
+                <button id="btnT">T</button>
+
+                <button id="btnU">U</button>
+
+                <button id="btnV">V</button>
+
+                <button id="btnW">W</button>
+
+                <button id="btnX">X</button>
+
+                <button id="btnY">Y</button>
+
+                <button id="btnZ">Z</button>
+            </div>
+
+            <div class="col-md-4 remaining">
+                <h2 id="guessesleft">Number of guesses remaining:</h2>
+            </div>
+
+            <div class="col-md-4 winbox">
+                <h2
+                    class=""
+                    id="wins"
+                >Win Record</h2>
+            </div>
         </div>
-
     </div>
 
-
-
-
-    <script src="assets/javascript/games.js" type="">
-    
-    </script>
-
+    <script
+        src="assets/javascript/games.js"
+        type=""
+    ></script>
 </body>
-
 </html>

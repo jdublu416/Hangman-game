@@ -11,7 +11,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 32pt;
 /* margin: 0 250px; */
 text-align: center;
-padding: 50px 0px;
+padding: 30px 0px;
 border:5px inset #3898b1;
 /* border-radius: 10px; */
 }
@@ -56,15 +56,15 @@ color:#3898b1;
 }
 
 .dressing {
-height: 50px; 
-width: 50px;
-font-size: 32pt;
+height: 50px;
+width: 100px;
+font-size: 38px;
 font-style: bold;
-color: #3898b1;
+color: #e7e5e1;
 margin-right:10px;
 padding: 5px;
-background-color: gray;
-visibility: hidden;
+background-color: #e7e5e1;
+/* visibility: hidden; */
 }
 
 .reveal {
@@ -75,8 +75,8 @@ font-style: bold;
 color: #3898b1;
 margin-right:10px;
 padding: 5px;
-background-color: gray;
-visibility: visible;
+background-color: lavender;
+/* visibility: visible!important; */
     
 }
 

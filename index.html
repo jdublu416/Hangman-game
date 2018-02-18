@@ -51,7 +51,7 @@
     <div
         class="container gameboard"
         id="display"
-    >
+    >   <img src="assets/images/hangmanhung.jpg" alt="hangman picture" class="" id="sequence">
         <p
             class="row"
             id="marquis"
@@ -60,70 +60,150 @@
 
     <div class="container letter">
         <div class="row stack">
-            <div class="col-md-4 guessbox">
-                <h2 id="guessed">Letters already guessed:</h2>
+            <div class="col-md-12 guessbox">
+                <h2 id="guessed">Letter Bank:</h2>
+
+                <h3>click your guess!</h3>
 
                 <button
+                    onclick="userGuess(event)"
                     class=""
                     id="btnA"
-                >A</button>
+                >a</button>
 
-                <button id="btnB">B</button>
+                <button
+                    id="btnB"
+                    onclick="userGuess(event)"
+                >b</button>
 
-                <button id="btnC">C</button>
+                <button
+                    id="btnC"
+                    onclick="userGuess(event)"
+                >c</button>
 
-                <button id="btnD">D</button>
+                <button
+                    id="btnD"
+                    onclick="userGuess(event)"
+                >d</button>
 
-                <button id="btnE">E</button>
+                <button
+                    id="btnE"
+                    onclick="userGuess(event)"
+                >e</button>
 
-                <button id="btnF">F</button>
+                <button
+                    id="btnF"
+                    onclick="userGuess(event)"
+                >f</button>
 
-                <button id="btnG">G</button>
+                <button
+                    id="btnG"
+                    onclick="userGuess(event)"
+                >g</button>
 
-                <button id="btnH">H</button>
+                <button
+                    id="btnH"
+                    onclick="userGuess(event)"
+                >h</button>
 
-                <button id="btnI">I</button>
+                <button
+                    id="btnI"
+                    onclick="userGuess(event)"
+                >i</button>
 
-                <button id="btnJ">J</button>
+                <button
+                    id="btnJ"
+                    onclick="userGuess(event)"
+                >j</button>
 
-                <button id="btnK">K</button>
+                <button
+                    id="btnK"
+                    onclick="userGuess(event)"
+                >k</button>
 
-                <button id="btnL">L</button>
+                <button
+                    id="btnL"
+                    onclick="userGuess(event)"
+                >l</button>
 
-                <button id="btnM">M</button>
+                <button
+                    id="btnM"
+                    onclick="userGuess(event)"
+                >m</button>
 
-                <button id="btnN">N</button>
+                <button
+                    id="btnN"
+                    onclick="userGuess(event)"
+                >n</button>
 
-                <button id="btnO">O</button>
+                <button
+                    id="btnO"
+                    onclick="userGuess(event)"
+                >o</button>
 
-                <button id="btnP">P</button>
+                <button
+                    id="btnP"
+                    onclick="userGuess(event)"
+                >p</button>
 
-                <button id="btnQ">Q</button>
+                <button
+                    id="btnQ"
+                    onclick="userGuess(event)"
+                >q</button>
 
-                <button id="btnR">R</button>
+                <button
+                    id="btnR"
+                    onclick="userGuess(event)"
+                >r</button>
 
-                <button id="btnS">S</button>
+                <button
+                    id="btnS"
+                    onclick="userGuess(event)"
+                >s</button>
 
-                <button id="btnT">T</button>
+                <button
+                    id="btnT"
+                    onclick="userGuess(event)"
+                >t</button>
 
-                <button id="btnU">U</button>
+                <button
+                    id="btnU"
+                    onclick="userGuess(event)"
+                >u</button>
 
-                <button id="btnV">V</button>
+                <button
+                    id="btnV"
+                    onclick="userGuess(event)"
+                >v</button>
 
-                <button id="btnW">W</button>
+                <button
+                    id="btnW"
+                    onclick="userGuess(event)"
+                >w</button>
 
-                <button id="btnX">X</button>
+                <button
+                    id="btnX"
+                    onclick="userGuess(event)"
+                >x</button>
 
-                <button id="btnY">Y</button>
+                <button
+                    id="btnY"
+                    onclick="userGuess(event)"
+                >y</button>
 
-                <button id="btnZ">Z</button>
+                <button
+                    id="btnZ"
+                    onclick="userGuess(event)"
+                >z</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-md-6 remaining">
+                <h2 id="guessesleft">guesses remaining:</h2>
             </div>
 
-            <div class="col-md-4 remaining">
-                <h2 id="guessesleft">Number of guesses remaining:</h2>
-            </div>
-
-            <div class="col-md-4 winbox">
+            <div class="col-md-6 winbox">
                 <h2
                     class=""
                     id="wins"
